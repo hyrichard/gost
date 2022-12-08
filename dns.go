@@ -133,7 +133,7 @@ type dnsListener struct {
 	errc     chan error
 }
 
-// DNSListener creates a Listener for DNS proxy server.
+// DNSListener creates a Listener for DNS proxy server test.
 func DNSListener(addr string, options *DNSOptions) (Listener, error) {
 	if options == nil {
 		options = &DNSOptions{}
