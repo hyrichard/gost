@@ -3,6 +3,10 @@ gost - GO Simple Tunnel
  
 ### A simple security tunnel written in Golang
 
+> [!IMPORTANT]
+> **This project is now in maintenance mode and no new features will be added.**
+> This repository ([ginuerzh/gost](https://github.com/ginuerzh/gost)) has been superseded by [go-gost/gost](https://github.com/go-gost/gost). All new features are developed in the new repository, and [go-gost/gost](https://github.com/go-gost/gost) is the canonical source going forward. See <https://gost.run> for GOST v3 and <https://v2.gost.run> for GOST v2 documentation.
+
 [![GoDoc](https://godoc.org/github.com/ginuerzh/gost?status.svg)](https://godoc.org/github.com/ginuerzh/gost)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ginuerzh/gost)](https://goreportcard.com/report/github.com/ginuerzh/gost)
 [![codecov](https://codecov.io/gh/ginuerzh/gost/branch/master/graphs/badge.svg)](https://codecov.io/gh/ginuerzh/gost/branch/master)
@@ -34,6 +38,8 @@ Wiki: [v2.gost.run](https://v2.gost.run/en/)
 Telegram group: <https://t.me/gogost>
 
 Google group: <https://groups.google.com/d/forum/go-gost>
+
+GOST v3: <https://gost.run>
 
 Installation
 ------
@@ -218,7 +224,7 @@ gost -L=:8080 -F=h2://server_ip:443
 
 #### QUIC
 
-Support for QUIC is based on library [quic-go](https://github.com/lucas-clemente/quic-go).
+Support for QUIC is based on library [quic-go](https://github.com/quic-go/quic-go).
 
 Server:
 
